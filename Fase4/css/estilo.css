@@ -1,0 +1,127 @@
+h1{
+    color:darkblue;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-area a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background:steelblue;
+    height: 50px;
+    text-decoration: none;
+}
+
+.menu-area a:hover {
+    background:turquoise;
+    color: #fff;
+
+}
+
+.menu-area ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-area li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-area li:hover .dropdown-1>li {
+    top: 0;
+    display: block;
+}
+
+.dropdown-1 li {
+    display: none;
+    position: relative;
+}
+
+.dropdown-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dropdown-1 li:hover {
+    display: block;
+}
+
+/* Estilos del Layaut */
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
+header {
+    padding: 25px;
+    text-align: left;
+    background: white;
+    color: white;
+      
+}
+
+nav {
+    color: blanchedalmond;
+    background-color: #333;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+aside {
+    flex: 21%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+
+.main {
+    flex: 69%;
+    background-color: white;
+    padding: 20px;
+}
+
+.main1 {
+    flex: 69%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color:black;
+
+}   
+
+.main2 {
+    flex: 69%;
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+    color:red;
+
+}   
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
